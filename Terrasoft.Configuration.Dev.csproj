@@ -299,23 +299,23 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtMLangContent">
-			<HintPath>$(PkgPath)/CrtMLangContent/Files/Bin/netstandard/CrtMLangContent.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtSecurity">
 			<HintPath>$(PkgPath)/CrtSecurity/Files/Bin/netstandard/CrtSecurity.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtEmailTemplate">
-			<HintPath>$(PkgPath)/CrtEmailTemplate/Files/Bin/netstandard/CrtEmailTemplate.dll</HintPath>
+		<Reference Include="CrtMLangContent">
+			<HintPath>$(PkgPath)/CrtMLangContent/Files/Bin/netstandard/CrtMLangContent.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 		<Reference Include="CrtML">
 			<HintPath>$(PkgPath)/CrtML/Files/Bin/netstandard/CrtML.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="CrtEmailTemplate">
+			<HintPath>$(PkgPath)/CrtEmailTemplate/Files/Bin/netstandard/CrtEmailTemplate.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -384,13 +384,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtSLM">
-			<HintPath>$(PkgPath)/CrtSLM/Files/Bin/netstandard/CrtSLM.dll</HintPath>
+		<Reference Include="CrtBaseFinservConsts">
+			<HintPath>$(PkgPath)/CrtBaseFinservConsts/Files/Bin/netstandard/CrtBaseFinservConsts.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtBaseFinservConsts">
-			<HintPath>$(PkgPath)/CrtBaseFinservConsts/Files/Bin/netstandard/CrtBaseFinservConsts.dll</HintPath>
+		<Reference Include="CrtSLM">
+			<HintPath>$(PkgPath)/CrtSLM/Files/Bin/netstandard/CrtSLM.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
