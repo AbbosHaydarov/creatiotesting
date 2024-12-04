@@ -1,0 +1,377 @@
+﻿@ConsultationDurationColor: #0E84CF;
+@ConsultationFontFamily: "Segoe UI", serif;
+@ClientDataCaptionColor: #999;
+@ClientDataColor: #444;
+
+.clientItem(@width, @color: @ClientDataColor, @fontSize: 12px, @margin: 0) {
+	width: @width;
+	margin: @margin;
+	padding: 0;
+	color: @color;
+	font-family: @ConsultationFontFamily;
+	font-size: @fontSize;
+	text-align: left;
+}
+
+// OBSW
+.OBSW-content-panel {
+	.base-container {
+		margin-bottom: 10px;
+	}
+
+	.schema-wrap.one-el {
+		width: 318px;
+	}
+
+	.module-container {
+		padding: 0;
+	}
+
+	.label-caption {
+		vertical-align: top;
+		.clientItem(107px, @color: @ClientDataCaptionColor, @margin: 0 8px 0 17px);
+	}
+
+	.header-color-container {
+		display: block;
+		height: 3px;
+		background-color: #46d2b6;
+		width: 100%;
+		float: left;
+	}
+
+	.header-label {
+		font-family: "Segoe UI";
+		font-size: 1.6em;
+		color: #4e7bd8;
+	}
+
+	.base-actions-button {
+		margin-right: 0.54em;
+		padding-left: 0.495em;
+		padding-right: 0.495em;
+	}
+
+	.load-more-button-class {
+		margin-left: 25%;
+	}
+
+	.grid-icon-fixed-32x32 {
+		border-radius: 50%;
+		width: 32px;
+		height: 32px;
+	}
+
+	.grid.grid-listed .grid-row-actions {
+		padding-left: 0;
+	}
+
+	.grid-pad {
+		border-bottom: none !important;
+		padding-top: 0px;
+	}
+
+	.grid-module,
+	.grid-row-actions {
+		padding-left: 0px !important;
+		padding-bottom: 0px;
+		margin-bottom: 5px;
+
+		.grid-cols-24.icon-spacer-32x32.grid-header {
+			min-height: 37px;
+		}
+	}
+
+	.grid-pad:first-child:before{
+		display: block;
+		background: #E0E0E0;
+		height: 1px;
+		margin: 0px 0px 0px 0px;
+		position: relative;
+		content: "";
+	}
+
+	.grid-pad:after {
+		display: block;
+		background: #E0E0E0;
+		height: 1px;
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+
+	.grid-pad:before {
+		display: none !important;
+	}
+
+	.ts-tabpanel-wrap:before {
+		display: none !important;
+	}
+
+	.search-panel {
+		.base-container;
+		margin-bottom: 30px;
+
+		.base-tab {
+			margin-top: 10px;
+		}
+
+		.ts-tabpanel {
+			border: 0px;
+			margin-left: 0px;
+			padding-right: 0em;
+
+			.ts-tabpanel-items {
+				margin-left: 1.449em;
+			}
+
+			ul {
+				:first-child, :last-child {
+					border: 1px solid #95a7bf;
+				}
+				li {
+					border: 1px solid #95a7bf;
+					border-radius: 1px;
+					color: #95a7bf;
+					text-align: center;
+					vertical-align: middle;
+					height: 28px;
+					padding: 0px;
+					width: 7em;
+					border-left: 0px;
+					border-right: 0px;
+				}
+			}
+
+			.ts-tabpanel-active-item {
+				background: #e4eaf9;
+				box-shadow: none;
+			}
+		}
+
+		.search-button-container {
+			.base-container;
+
+			.search-actions-button {
+				.base-actions-button;
+			}
+		}
+
+		.search-result-container {
+			.base-container;
+
+			.search-result-header-container {
+				padding-top: 10px;
+
+				.search-result-header-label {
+					color: #999999;
+				}
+			}
+		}
+	}
+
+	.consultation-panel {
+		.base-container;
+		margin-bottom: 30px;
+
+		.consultation-client-info-container {
+			.base-container;
+			position: relative;
+			display: flex;
+			display: -ms-flex;
+			display: -webkit-flex;
+			display: -moz-flex;
+
+			.consultation-left-container {
+				min-width: 43px;
+				float: left;
+
+				.contact-photo-container {
+					width: 43px;
+					height: 43px;
+
+					.ts-image-edit-wrap {
+						width: 43px;
+						height: 43px;
+
+						img {
+							width: 43px;
+							height: 43px;
+							border-radius: 50%;
+						}
+					}
+				}
+
+				.contact-service-level-image-container {
+					width: 38px;
+					height: 38px;
+					margin-left: 2.5px;
+					margin-top: 4px;
+
+					.ts-image-edit-wrap {
+						width: 38px;
+						height: 38px;
+
+						img {
+							width: 38px;
+							height: 38px;
+						}
+					}
+				}
+			}
+
+			.consultation-right-container {
+				min-width: 273px;
+				float: left;
+
+				.contact-name-label {
+					margin: 0px 17px;
+					text-align: left;
+					font-size: 18px;
+					width: 241px;
+					color: #0E84CF;
+				}
+
+				.subscriber-info {
+					.clientItem(141px);
+				}
+
+				.consultation-duration-container {
+					.consultation-duration {
+						.clientItem(141px, @color: @ConsultationDurationColor);
+					}
+				}
+			}
+		}
+
+		.consultation-button-container {
+			.base-container;
+			width: 100%;
+			display: flex;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			flex-direction: row;
+			-ms-flex-direction: row;
+			-webkit-flex-direction: row;
+			justify-content: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			margin-bottom: 24px;
+
+			.consultation-actions-button {
+				.base-actions-button;
+				min-width: 110px;
+				border-radius: 2px;
+			}
+
+			.t-btn-style-red {
+				background-color: #ff6b5c;
+			}
+		}
+
+		.important-information-container {
+		}
+	}
+
+	.pending-consultation-panel {
+		.grid-pad:first-child:before{
+			display: none;
+		}
+
+		.ts-controlgroup-caption-wrap {
+			.ts-controlgroup-marker-wrap {
+				display: block;
+				float: left;
+			}
+
+			span {
+				display: block;
+				float: left;
+				height: 25px;
+			}
+
+			.ts-controlgroup-tools {
+				display: block;
+				height: 3px;
+				background-color: #46d2b6;
+				width: 100%;
+				float: left;
+				position: inherit;
+			}
+		}
+
+		.ts-controlgroup-container {
+			padding-top: 0;
+		}
+	}
+}
+
+//ConsultationPostprocessingWindow
+.consultation-postprocessing-page-modal-box {
+	.schema-wrap.one-el {
+		width: 1180px;
+		height: 610px;
+	}
+
+	.consultation-postprocessing-container {
+		padding-left: 24px;
+		padding-right: 24px;
+
+		.header-container {
+			margin-bottom: 10px;
+
+			.header-caption-container {
+				width: 100%;
+
+				.header-caption-label {
+					font-family: "Segoe UI Light";
+					color: #64b8df;
+					font-size: 2.2em;
+					letter-spacing: -0.01em;
+					overflow: hidden;
+					display: inline-block;
+					width: 100%;
+				}
+			}
+
+			.close-icon-container {
+				.close-icon-button {
+					position: absolute;
+					right: 0.5em;
+					top: 11px;
+				}
+			}
+		}
+
+		.main-content-container {
+			margin-bottom: 10px;
+		}
+
+		.consultation-themes-container {
+			margin-bottom: 10px;
+
+			.consultation-themes-container-list {
+				height: 340px;
+				overflow-y: auto;
+				padding-right: 10px;
+
+				.consultation-theme-item-container {
+					padding-bottom: 20px;
+					padding-top: 20px;
+					border-bottom: #E0E0E0 solid 1px
+				}
+			}
+		}
+
+		.action-button-container {
+			margin-bottom: 20px;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+
+			.actions-button {
+				margin-right: 0.65em;
+				min-width: 100px;
+			}
+		}
+	}
+}

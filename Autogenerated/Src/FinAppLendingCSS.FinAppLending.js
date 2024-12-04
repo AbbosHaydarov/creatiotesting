@@ -1,0 +1,4 @@
+﻿define("FinAppLendingCSS", [],
+	function() {
+		return {};
+	});

@@ -1,0 +1,139 @@
+﻿.specification-matrix-wrap {
+
+	display: flex;
+	width: 1012px;
+	outline: none;
+	margin-top: -1px;
+	margin-left: -1px;
+
+	.specification-row-additional {
+		margin: 0px;
+	}
+
+	.specification-row-values-horizontal {
+		flex-wrap: nowrap;
+	}
+	
+	.specification-row-type .specification-value-background-wrap {
+		background: #E2E6F6;
+	}
+
+	.leftContainer {
+		min-width: 253px;
+
+		.specification-row-values {
+			min-height: 100%;
+		}
+
+		.specification-row-type {
+			.specification-value-label {
+				text-transform: uppercase;
+			}
+		}
+		.row-add-button {
+			margin-left: 2px;
+		}
+	}
+
+	.rightContainer {
+		overflow-x: scroll;
+		overflow-y: hidden;
+
+		.specification-row-values {
+			min-height: 100%;
+		}
+
+
+		.specification-row-type {
+			text-align: center;
+
+			.specification-value-placeholder {
+				width: auto;
+			}
+
+			.specification-value-label {
+				text-transform: uppercase;
+			}
+		}
+		
+		.specification-row-type-top .specification-row-type {
+			flex-basis: 32px;
+		}
+		.specification-row-type-top .specification-row-type .specification-value-wrap {
+			position: absolute;
+			z-index: 10;
+			left: 256px;
+			width: 756px;
+		}
+
+		.valuesContainer {
+			.specification-value-content {
+				min-height: 30px;
+				
+				> div:first-child {
+					max-height: 30px;
+				}
+			}
+
+			.specification-value-background-wrap {
+				background: #FFFFFF;
+				border: 1px;
+				border-color: #E0DADA;
+				border-style: solid;
+			}
+
+			.specification-row-inline-value {
+				margin-top: 2px;
+				margin-bottom: 0px;
+			}
+
+			margin-top: -1px;
+			margin-left: -2px;
+		}
+	}
+
+	.captionContainer {
+		width: 250px;
+		min-width: 250px;
+		height: 32px;
+		min-height: 32px;
+		margin: 1px 1px 1px 2px;
+
+		.caption {
+			font-size: 1.4em;
+			display: inline-block;
+			margin: 5px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+}
+
+.specification-row-top-container {
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 12px;
+	margin-top: 12px;
+	width: 1012px;
+
+	.specification-row-top-hr {
+		width: 40%;
+		border-bottom: 1px dotted #c8c8c8;
+		height: 10px;
+	}
+}
+
+.specification-row-bottom-container {
+	margin-bottom: 12px;
+	margin-top: 12px;
+	width: 1012px;
+
+	.specification-row-top-hr {
+		width: 98%;
+		border-bottom: 1px dotted #c8c8c8;
+		height: 10px;
+	}
+}
+
