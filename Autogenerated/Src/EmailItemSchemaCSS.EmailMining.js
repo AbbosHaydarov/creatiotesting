@@ -1,5 +1,0 @@
-﻿define("EmailItemModule",
-		function() {
-			return {};
-		}
-);

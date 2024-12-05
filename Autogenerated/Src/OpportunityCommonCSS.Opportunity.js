@@ -1,5 +1,0 @@
-﻿define("OpportunityCommonCss",
-	function() {
-		return {};
-	}
-);

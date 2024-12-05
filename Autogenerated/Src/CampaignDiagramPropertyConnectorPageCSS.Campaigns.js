@@ -1,5 +1,0 @@
-﻿define("CampaignDiagramPropertyConnectorPageCSS", [],
-	function() {
-		return {};
-	}
-);

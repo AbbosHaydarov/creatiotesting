@@ -1,3 +1,0 @@
-﻿define("ForecastLczResources", [], function() {
-	return {};
-});

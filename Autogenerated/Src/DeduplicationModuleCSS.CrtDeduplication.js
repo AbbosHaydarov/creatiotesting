@@ -1,6 +1,0 @@
-﻿define("DeduplicationModuleCSS",
-	function() {
-		return {
-		};
-	}
-);

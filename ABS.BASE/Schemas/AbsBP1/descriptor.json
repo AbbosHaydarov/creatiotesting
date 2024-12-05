@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "6e556750-f726-4f3f-8f2e-add46bfe5a1b",
+    "Name": "AbsBP1",
+    "ModifiedOnUtc": "\/Date(1733414980000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "BP1",
+    "DependsOn": []
+  }
+}

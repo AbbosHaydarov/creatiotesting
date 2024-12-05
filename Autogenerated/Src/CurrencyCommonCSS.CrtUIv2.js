@@ -1,4 +1,0 @@
-﻿define("CurrencyCommonCss",
-	function() {
-		return {};
-	});

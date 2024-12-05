@@ -1,3 +1,0 @@
-﻿namespace Terrasoft.Configuration.CaseSequenceService
-{
-}

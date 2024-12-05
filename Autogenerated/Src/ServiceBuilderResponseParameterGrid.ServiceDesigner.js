@@ -1,3 +1,0 @@
-﻿define("ServiceBuilderResponseParameterGrid", [], function() {
-	return {};
-});

@@ -1,3 +1,0 @@
-﻿ define("PlaybookSectionActionDashboardCSS", [], function() {
-	return {};
-});

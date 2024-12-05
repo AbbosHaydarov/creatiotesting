@@ -1,5 +1,0 @@
-﻿define("SectionBundleModule",
-	function() {
-		return {};
-	}
-);

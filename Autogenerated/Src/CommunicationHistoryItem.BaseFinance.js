@@ -1,5 +1,0 @@
-﻿define("CommunicationHistoryItem", [],
-	function() {
-		return {};
-	}
-);
